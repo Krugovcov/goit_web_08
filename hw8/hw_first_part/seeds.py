@@ -4,8 +4,8 @@ from typing import List, Any
 
 
 
-import connect
-from models import Author, Quote
+import common.connect as connect
+from hw8.hw_first_part.models_quote import Author, Quote
 
 if __name__ == '__main__':
     with open("authors.json", "r", encoding="utf-8") as file:
